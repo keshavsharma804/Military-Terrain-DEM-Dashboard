@@ -37,11 +37,11 @@ This project processes geospatial data for terrain analysis, generating hillshad
 6. Access: `http://localhost:5000` (React) or `http://localhost:5000/simple` (HTML fallback)
 
 ## Screenshots
-![1](https://github.com/user-attachments/assets/dfeb3744-7411-45e1-98e6-4f3ae92caa00)
-![2](https://github.com/user-attachments/assets/4339c87c-05d7-4e46-b8c0-92d102361c0a)
-![3](https://github.com/user-attachments/assets/ab5996cb-b47a-491f-82f4-8e24ad319a38)
-![4](https://github.com/user-attachments/assets/1cd295f8-f51c-4073-905f-3370d9195409)
-![5](https://github.com/user-attachments/assets/b8ca0c6d-d607-4aea-adf3-23023e2a6f7c)
+![1](https://github.com/user-attachments/assets/ed431e72-5c03-4192-abf6-d7918f37f52d)
+![2](https://github.com/user-attachments/assets/5c1ae08a-a490-431c-bc8d-7c351bdb7aaa)
+![3](https://github.com/user-attachments/assets/e7f84e36-aa1c-4b0e-9224-3aa4143a90f6)
+![4](https://github.com/user-attachments/assets/d638b291-032b-4be4-89a5-71f64d148fb2)
+![5](https://github.com/user-attachments/assets/b1ef1a1a-3a36-430a-a699-111c982c4896)
 
 
 ## Upcoming Features To Enhance it
