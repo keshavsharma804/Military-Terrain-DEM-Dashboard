@@ -1,0 +1,1026 @@
+2025-07-27 14:24:57,905 WARNING  * Debugger is active!
+2025-07-27 14:24:57,914 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:25:09,126 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:25:10,437 WARNING  * Debugger is active!
+2025-07-27 14:25:10,450 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:25:23,584 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:25:24,814 WARNING  * Debugger is active!
+2025-07-27 14:25:24,821 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:25:37,962 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:25:39,179 WARNING  * Debugger is active!
+2025-07-27 14:25:39,201 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:26:18,544 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:26:19,870 WARNING  * Debugger is active!
+2025-07-27 14:26:19,881 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:26:44,107 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:26:45,470 WARNING  * Debugger is active!
+2025-07-27 14:26:45,477 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:26:46,516 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:26:47,867 WARNING  * Debugger is active!
+2025-07-27 14:26:47,874 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:27:35,247 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:48:31,450 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 14:48:31,452 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 14:48:31,453 INFO  * Restarting with stat
+2025-07-27 14:48:32,651 WARNING  * Debugger is active!
+2025-07-27 14:48:32,657 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:49:19,544 INFO {"message": "Received file", "filename": "sample_zones.kml", "size": 711}
+2025-07-27 14:49:19,570 ERROR {"error": "Error reading file '<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n  <Document>\n    <name>Test MultiGeometry</name>\n    <Placemark>\n      <name>Test Multi</name>\n      <MultiGeometry>\n        <Point>\n          <coordinates>77.0,28.5,0</coordinates>\n        </Point>\n        <Polygon>\n          <outerBoundaryIs>\n            <LinearRing>\n              <coordinates>\n                77.0,28.5,0\n                77.1,28.5,0\n                77.1,28.6,0\n                77.0,28.6,0\n                77.0,28.5,0\n              </coordinates>\n            </LinearRing>\n          </outerBoundaryIs>\n        </Polygon>\n      </MultiGeometry>\n    </Placemark>\n  </Document>\n</kml>': failed to load external entity \"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n  <Document>\n    <name>Test MultiGeometry</name>\n    <Placemark>\n      <name>Test Multi</name>\n      <MultiGeometry>\n        <Point>\n          <coordinates>77.0,28.5,0</coordinates>\n        </Point>\n        <Polygon>\n          <outerBoundaryIs>\n            <LinearRing>\n              <coordinates>\n                77.0,28.5,0\n                77.1,28.5,0\n                77.1,28.6,0\n                77.0,28.6,0\n                77.0,28.5,0\n              </coordinates>\n            </LinearRing>\n          </outerBoundaryIs>\n        </Polygon>\n      </MultiGeometry>\n    </Placemark>\n  </Document>\n</kml>\"", "file_path": "uploads\\sample_zones.kml"}
+2025-07-27 14:49:19,572 ERROR {"error": "Error reading file '<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n  <Document>\n    <name>Test MultiGeometry</name>\n    <Placemark>\n      <name>Test Multi</name>\n      <MultiGeometry>\n        <Point>\n          <coordinates>77.0,28.5,0</coordinates>\n        </Point>\n        <Polygon>\n          <outerBoundaryIs>\n            <LinearRing>\n              <coordinates>\n                77.0,28.5,0\n                77.1,28.5,0\n                77.1,28.6,0\n                77.0,28.6,0\n                77.0,28.5,0\n              </coordinates>\n            </LinearRing>\n          </outerBoundaryIs>\n        </Polygon>\n      </MultiGeometry>\n    </Placemark>\n  </Document>\n</kml>': failed to load external entity \"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n  <Document>\n    <name>Test MultiGeometry</name>\n    <Placemark>\n      <name>Test Multi</name>\n      <MultiGeometry>\n        <Point>\n          <coordinates>77.0,28.5,0</coordinates>\n        </Point>\n        <Polygon>\n          <outerBoundaryIs>\n            <LinearRing>\n              <coordinates>\n                77.0,28.5,0\n                77.1,28.5,0\n                77.1,28.6,0\n                77.0,28.6,0\n                77.0,28.5,0\n              </coordinates>\n            </LinearRing>\n          </outerBoundaryIs>\n        </Polygon>\n      </MultiGeometry>\n    </Placemark>\n  </Document>\n</kml>\"", "filename": "sample_zones.kml"}
+2025-07-27 14:49:19,574 INFO 127.0.0.1 - - [27/Jul/2025 14:49:19] "[35m[1mPOST /api/parse?store=true HTTP/1.1[0m" 500 -
+2025-07-27 14:54:09,955 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\file_parser.py', reloading
+2025-07-27 14:54:10,239 INFO  * Restarting with stat
+2025-07-27 14:54:12,032 WARNING  * Debugger is active!
+2025-07-27 14:54:12,041 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:55:18,311 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 14:55:18,313 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 14:55:18,314 INFO  * Restarting with stat
+2025-07-27 14:55:19,327 WARNING  * Debugger is active!
+2025-07-27 14:55:19,334 INFO  * Debugger PIN: 474-847-740
+2025-07-27 14:55:49,096 INFO {"message": "Received file", "filename": "sample_zones.kml", "size": 711}
+2025-07-27 14:55:49,136 INFO {"message": "Parsed KML", "file_path": "uploads\\sample_zones.kml", "placemarks": 1, "features": 1}
+2025-07-27 14:55:49,144 INFO {"message": "Stored parsed data", "filename": "sample_zones.kml", "features": 1}
+2025-07-27 14:55:49,146 INFO 127.0.0.1 - - [27/Jul/2025 14:55:49] "POST /api/parse?store=true HTTP/1.1" 200 -
+2025-07-27 14:56:35,089 INFO {"message": "Received file", "filename": "restricted_area.geojson", "size": 305}
+2025-07-27 14:56:35,090 ERROR {"error": "Object of type coroutine is not JSON serializable", "filename": "restricted_area.geojson"}
+2025-07-27 14:56:35,116 INFO 127.0.0.1 - - [27/Jul/2025 14:56:35] "[35m[1mPOST /api/parse?store=true HTTP/1.1[0m" 500 -
+2025-07-27 14:59:16,216 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 14:59:16,326 INFO  * Restarting with stat
+2025-07-27 14:59:17,691 WARNING  * Debugger is active!
+2025-07-27 14:59:17,697 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:00:35,391 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:00:35,917 INFO  * Restarting with stat
+2025-07-27 16:00:37,997 WARNING  * Debugger is active!
+2025-07-27 16:00:38,009 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:01:26,563 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:01:26,742 INFO  * Restarting with stat
+2025-07-27 16:01:28,097 WARNING  * Debugger is active!
+2025-07-27 16:01:28,106 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:01:53,316 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:01:53,471 INFO  * Restarting with stat
+2025-07-27 16:01:54,645 WARNING  * Debugger is active!
+2025-07-27 16:01:54,652 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:02:03,742 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:02:03,905 INFO  * Restarting with stat
+2025-07-27 16:02:05,110 WARNING  * Debugger is active!
+2025-07-27 16:02:05,116 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:02:19,273 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:02:19,447 INFO  * Restarting with stat
+2025-07-27 16:02:20,826 WARNING  * Debugger is active!
+2025-07-27 16:02:20,833 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:04:07,851 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:04:07,994 INFO  * Restarting with stat
+2025-07-27 16:04:09,698 WARNING  * Debugger is active!
+2025-07-27 16:04:09,704 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:06:10,708 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:06:10,708 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:06:10,711 INFO  * Restarting with stat
+2025-07-27 16:06:11,719 WARNING  * Debugger is active!
+2025-07-27 16:06:11,726 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:09:22,287 INFO 127.0.0.1 - - [27/Jul/2025 16:09:22] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 16:12:22,462 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:12:22,922 INFO  * Restarting with stat
+2025-07-27 16:12:27,725 INFO generated new fontManager
+2025-07-27 16:12:28,819 WARNING  * Debugger is active!
+2025-07-27 16:12:28,832 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:12:35,972 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:12:36,304 INFO  * Restarting with stat
+2025-07-27 16:12:38,061 WARNING  * Debugger is active!
+2025-07-27 16:12:38,068 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:13:09,485 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:13:09,641 INFO  * Restarting with stat
+2025-07-27 16:19:07,962 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:19:07,963 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:19:07,966 INFO  * Restarting with stat
+2025-07-27 16:19:09,813 WARNING  * Debugger is active!
+2025-07-27 16:19:09,820 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:20:14,780 INFO GDAL signalled an error: err_no=1, msg='Deleting C:/Users/91884/military_terrain_dashboard/backend/uploads\\merged_dem.tif failed:\nPermission denied'
+2025-07-27 16:20:15,131 INFO 127.0.0.1 - - [27/Jul/2025 16:20:15] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-27 16:21:34,563 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:21:37,027 INFO  * Restarting with stat
+2025-07-27 16:21:39,470 WARNING  * Debugger is active!
+2025-07-27 16:21:39,479 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:22:37,131 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:22:37,471 INFO  * Restarting with stat
+2025-07-27 16:22:39,205 WARNING  * Debugger is active!
+2025-07-27 16:22:39,212 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:23:41,570 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:23:41,571 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:23:41,573 INFO  * Restarting with stat
+2025-07-27 16:23:43,074 WARNING  * Debugger is active!
+2025-07-27 16:23:43,082 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:24:49,875 INFO GDAL signalled an error: err_no=1, msg='Deleting C:/Users/91884/military_terrain_dashboard/backend/uploads\\merged_dem.tif failed:\nPermission denied'
+2025-07-27 16:24:50,038 INFO 127.0.0.1 - - [27/Jul/2025 16:24:50] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-27 16:26:12,927 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:26:15,034 INFO  * Restarting with stat
+2025-07-27 16:28:04,787 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:28:04,788 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:28:04,791 INFO  * Restarting with stat
+2025-07-27 16:28:06,374 WARNING  * Debugger is active!
+2025-07-27 16:28:06,382 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:29:17,498 INFO GDAL signalled an error: err_no=1, msg='Deleting C:/Users/91884/military_terrain_dashboard/backend/uploads\\merged_dem.tif failed:\nPermission denied'
+2025-07-27 16:29:19,075 INFO 127.0.0.1 - - [27/Jul/2025 16:29:19] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-27 16:32:28,095 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:32:28,777 INFO  * Restarting with stat
+2025-07-27 16:32:31,230 WARNING  * Debugger is active!
+2025-07-27 16:32:31,237 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:32:46,438 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:32:46,696 INFO  * Restarting with stat
+2025-07-27 16:32:48,568 WARNING  * Debugger is active!
+2025-07-27 16:32:48,575 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:33:07,792 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:33:07,792 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:33:07,797 INFO  * Restarting with stat
+2025-07-27 16:33:09,484 WARNING  * Debugger is active!
+2025-07-27 16:33:09,491 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:34:18,271 INFO 127.0.0.1 - - [27/Jul/2025 16:34:18] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-27 16:35:37,131 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:35:37,822 INFO  * Restarting with stat
+2025-07-27 16:38:57,185 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:38:57,186 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:38:57,188 INFO  * Restarting with stat
+2025-07-27 16:38:58,681 WARNING  * Debugger is active!
+2025-07-27 16:38:58,706 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:41:07,974 INFO 127.0.0.1 - - [27/Jul/2025 16:41:07] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-27 16:43:18,660 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 16:43:20,897 INFO  * Restarting with stat
+2025-07-27 16:45:13,531 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:45:13,531 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:45:13,534 INFO  * Restarting with stat
+2025-07-27 16:45:15,241 WARNING  * Debugger is active!
+2025-07-27 16:45:15,250 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:45:51,947 INFO 127.0.0.1 - - [27/Jul/2025 16:45:51] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 16:53:13,585 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:53:13,586 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:53:13,590 INFO  * Restarting with stat
+2025-07-27 16:53:14,226 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:53:14,227 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:53:14,227 INFO  * Restarting with stat
+2025-07-27 16:53:15,760 WARNING  * Debugger is active!
+2025-07-27 16:53:15,783 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:53:18,032 WARNING  * Debugger is active!
+2025-07-27 16:53:18,032 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:53:42,286 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:53:42,286 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:53:42,290 INFO  * Restarting with stat
+2025-07-27 16:53:43,771 WARNING  * Debugger is active!
+2025-07-27 16:53:43,777 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:54:22,773 INFO 127.0.0.1 - - [27/Jul/2025 16:54:22] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 16:54:49,235 INFO 127.0.0.1 - - [27/Jul/2025 16:54:49] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 16:55:59,947 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:56:00,087 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:56:00,433 INFO  * Restarting with stat
+2025-07-27 16:56:02,523 WARNING  * Debugger is active!
+2025-07-27 16:56:02,533 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:56:13,692 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:56:13,924 INFO  * Restarting with stat
+2025-07-27 16:56:15,677 WARNING  * Debugger is active!
+2025-07-27 16:56:15,683 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:56:37,911 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:56:38,085 INFO  * Restarting with stat
+2025-07-27 16:56:39,887 WARNING  * Debugger is active!
+2025-07-27 16:56:39,896 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:56:50,076 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 16:56:50,355 INFO  * Restarting with stat
+2025-07-27 16:56:52,020 WARNING  * Debugger is active!
+2025-07-27 16:56:52,028 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:57:04,471 WARNING  * Debugger is active!
+2025-07-27 16:57:04,472 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:57:04,722 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:57:04,723 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:57:04,723 INFO  * Restarting with stat
+2025-07-27 16:57:06,331 WARNING  * Debugger is active!
+2025-07-27 16:57:06,342 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:57:09,649 WARNING  * Debugger is active!
+2025-07-27 16:57:09,649 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:57:19,570 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:57:19,570 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 16:57:19,573 INFO  * Restarting with stat
+2025-07-27 16:57:21,277 WARNING  * Debugger is active!
+2025-07-27 16:57:21,284 INFO  * Debugger PIN: 474-847-740
+2025-07-27 16:57:46,252 INFO 127.0.0.1 - - [27/Jul/2025 16:57:46] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 16:58:17,631 INFO 127.0.0.1 - - [27/Jul/2025 16:58:17] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:01:09,088 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 17:12:56,562 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 17:12:56,563 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 17:12:56,566 INFO  * Restarting with stat
+2025-07-27 17:12:58,255 WARNING  * Debugger is active!
+2025-07-27 17:12:58,269 INFO  * Debugger PIN: 474-847-740
+2025-07-27 17:13:43,318 INFO 127.0.0.1 - - [27/Jul/2025 17:13:43] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:14:21,229 INFO 127.0.0.1 - - [27/Jul/2025 17:14:21] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:14:21,596 INFO 127.0.0.1 - - [27/Jul/2025 17:14:21] "GET /uploads/merged_dem.png HTTP/1.1" 200 -
+2025-07-27 17:16:34,708 INFO 127.0.0.1 - - [27/Jul/2025 17:16:34] "GET /uploads/merged_dem.png HTTP/1.1" 200 -
+2025-07-27 17:16:34,785 INFO 127.0.0.1 - - [27/Jul/2025 17:16:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 17:19:56,797 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 17:32:44,303 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 17:32:44,304 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 17:32:44,305 INFO  * Restarting with stat
+2025-07-27 17:32:45,224 WARNING  * Debugger is active!
+2025-07-27 17:32:45,229 INFO  * Debugger PIN: 474-847-740
+2025-07-27 17:32:56,578 INFO 127.0.0.1 - - [27/Jul/2025 17:32:56] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:33:33,163 INFO 127.0.0.1 - - [27/Jul/2025 17:33:33] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:33:33,417 INFO 127.0.0.1 - - [27/Jul/2025 17:33:33] "GET /uploads/merged_dem.png HTTP/1.1" 200 -
+2025-07-27 17:43:01,757 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 17:45:37,895 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 17:45:37,895 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 17:45:37,897 INFO  * Restarting with stat
+2025-07-27 17:45:38,781 WARNING  * Debugger is active!
+2025-07-27 17:45:38,786 INFO  * Debugger PIN: 474-847-740
+2025-07-27 17:45:46,606 INFO 127.0.0.1 - - [27/Jul/2025 17:45:46] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:45:48,187 INFO 127.0.0.1 - - [27/Jul/2025 17:45:48] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:45:48,249 INFO 127.0.0.1 - - [27/Jul/2025 17:45:48] "GET /uploads/merged_dem.png HTTP/1.1" 200 -
+2025-07-27 17:46:31,042 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 17:48:38,623 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 17:48:38,624 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 17:48:38,625 INFO  * Restarting with stat
+2025-07-27 17:48:39,524 WARNING  * Debugger is active!
+2025-07-27 17:48:39,527 INFO  * Debugger PIN: 474-847-740
+2025-07-27 17:48:47,691 INFO 127.0.0.1 - - [27/Jul/2025 17:48:47] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:48:48,455 INFO 127.0.0.1 - - [27/Jul/2025 17:48:48] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:48:48,504 INFO 127.0.0.1 - - [27/Jul/2025 17:48:48] "GET /uploads/merged_dem.png HTTP/1.1" 200 -
+2025-07-27 17:50:05,940 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 17:51:36,895 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 17:51:36,896 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 17:51:36,897 INFO  * Restarting with stat
+2025-07-27 17:51:37,867 WARNING  * Debugger is active!
+2025-07-27 17:51:37,871 INFO  * Debugger PIN: 474-847-740
+2025-07-27 17:51:43,877 INFO 127.0.0.1 - - [27/Jul/2025 17:51:43] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:51:45,344 INFO 127.0.0.1 - - [27/Jul/2025 17:51:45] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 17:51:45,393 INFO 127.0.0.1 - - [27/Jul/2025 17:51:45] "GET /uploads/merged_dem.png HTTP/1.1" 200 -
+2025-07-27 18:00:45,400 WARNING  * Debugger is active!
+2025-07-27 18:00:45,409 INFO  * Debugger PIN: 474-847-740
+2025-07-27 18:00:48,486 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 18:00:48,488 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 18:00:48,489 INFO  * Restarting with stat
+2025-07-27 18:00:49,683 WARNING  * Debugger is active!
+2025-07-27 18:00:49,687 INFO  * Debugger PIN: 474-847-740
+2025-07-27 18:00:51,980 WARNING  * Debugger is active!
+2025-07-27 18:00:51,980 INFO  * Debugger PIN: 474-847-740
+2025-07-27 18:00:58,485 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 18:00:58,485 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 18:00:58,487 INFO  * Restarting with stat
+2025-07-27 18:00:59,380 WARNING  * Debugger is active!
+2025-07-27 18:00:59,384 INFO  * Debugger PIN: 474-847-740
+2025-07-27 18:01:21,929 INFO 127.0.0.1 - - [27/Jul/2025 18:01:21] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 18:01:23,613 INFO 127.0.0.1 - - [27/Jul/2025 18:01:23] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 18:01:23,670 INFO 127.0.0.1 - - [27/Jul/2025 18:01:23] "GET /uploads/merged_dem.png HTTP/1.1" 200 -
+2025-07-27 18:05:25,599 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 19:25:35,875 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 19:25:35,876 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 19:25:35,880 INFO  * Restarting with stat
+2025-07-27 19:25:38,629 WARNING  * Debugger is active!
+2025-07-27 19:25:38,637 INFO  * Debugger PIN: 474-847-740
+2025-07-27 19:25:54,679 INFO 127.0.0.1 - - [27/Jul/2025 19:25:54] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:26:02,861 INFO 127.0.0.1 - - [27/Jul/2025 19:26:02] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:26:14,884 INFO 127.0.0.1 - - [27/Jul/2025 19:26:14] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:26:21,595 INFO 127.0.0.1 - - [27/Jul/2025 19:26:21] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:39:31,494 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 19:40:08,801 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 19:40:08,802 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 19:40:08,805 INFO  * Restarting with stat
+2025-07-27 19:40:11,622 WARNING  * Debugger is active!
+2025-07-27 19:40:11,632 INFO  * Debugger PIN: 474-847-740
+2025-07-27 19:40:31,475 ERROR {"error": "Custom tiles must have an attribution."}
+2025-07-27 19:40:31,483 INFO 127.0.0.1 - - [27/Jul/2025 19:40:31] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-27 19:41:30,423 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 19:42:23,653 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 19:42:23,654 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 19:42:23,658 INFO  * Restarting with stat
+2025-07-27 19:42:26,791 WARNING  * Debugger is active!
+2025-07-27 19:42:26,799 INFO  * Debugger PIN: 474-847-740
+2025-07-27 19:42:36,033 INFO 127.0.0.1 - - [27/Jul/2025 19:42:36] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:43:09,352 INFO 127.0.0.1 - - [27/Jul/2025 19:43:09] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:43:15,781 INFO 127.0.0.1 - - [27/Jul/2025 19:43:15] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:43:22,752 INFO 127.0.0.1 - - [27/Jul/2025 19:43:22] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:43:29,357 INFO 127.0.0.1 - - [27/Jul/2025 19:43:29] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 19:48:42,861 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-27 20:35:00,523 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 20:35:00,523 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 20:35:00,528 INFO  * Restarting with stat
+2025-07-27 20:35:02,124 WARNING  * Debugger is active!
+2025-07-27 20:35:02,128 INFO  * Debugger PIN: 474-847-740
+2025-07-27 20:35:33,594 INFO 127.0.0.1 - - [27/Jul/2025 20:35:33] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:35:49,111 INFO 127.0.0.1 - - [27/Jul/2025 20:35:49] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:35:53,605 INFO 127.0.0.1 - - [27/Jul/2025 20:35:53] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:35:54,020 INFO 127.0.0.1 - - [27/Jul/2025 20:35:54] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-27 20:36:00,397 INFO 127.0.0.1 - - [27/Jul/2025 20:36:00] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-27 20:36:00,821 INFO 127.0.0.1 - - [27/Jul/2025 20:36:00] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:01,832 INFO 127.0.0.1 - - [27/Jul/2025 20:36:01] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:02,104 INFO 127.0.0.1 - - [27/Jul/2025 20:36:02] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:02,436 INFO 127.0.0.1 - - [27/Jul/2025 20:36:02] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:02,686 INFO 127.0.0.1 - - [27/Jul/2025 20:36:02] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:02,695 INFO 127.0.0.1 - - [27/Jul/2025 20:36:02] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:02,949 INFO 127.0.0.1 - - [27/Jul/2025 20:36:02] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:03,111 INFO 127.0.0.1 - - [27/Jul/2025 20:36:03] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:03,361 INFO 127.0.0.1 - - [27/Jul/2025 20:36:03] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:03,368 INFO 127.0.0.1 - - [27/Jul/2025 20:36:03] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:03,623 INFO 127.0.0.1 - - [27/Jul/2025 20:36:03] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:03,825 INFO 127.0.0.1 - - [27/Jul/2025 20:36:03] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:04,076 INFO 127.0.0.1 - - [27/Jul/2025 20:36:04] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:05,805 INFO 127.0.0.1 - - [27/Jul/2025 20:36:05] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:06,095 INFO 127.0.0.1 - - [27/Jul/2025 20:36:06] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:06,353 INFO 127.0.0.1 - - [27/Jul/2025 20:36:06] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:06,949 INFO 127.0.0.1 - - [27/Jul/2025 20:36:06] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:07,202 INFO 127.0.0.1 - - [27/Jul/2025 20:36:07] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:07,227 INFO 127.0.0.1 - - [27/Jul/2025 20:36:07] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:07,478 INFO 127.0.0.1 - - [27/Jul/2025 20:36:07] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:07,554 INFO 127.0.0.1 - - [27/Jul/2025 20:36:07] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:08,797 INFO 127.0.0.1 - - [27/Jul/2025 20:36:08] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:09,048 INFO 127.0.0.1 - - [27/Jul/2025 20:36:09] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:09,318 INFO 127.0.0.1 - - [27/Jul/2025 20:36:09] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:09,568 INFO 127.0.0.1 - - [27/Jul/2025 20:36:09] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:11,765 INFO 127.0.0.1 - - [27/Jul/2025 20:36:11] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:12,013 INFO 127.0.0.1 - - [27/Jul/2025 20:36:12] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:12,705 INFO 127.0.0.1 - - [27/Jul/2025 20:36:12] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:12,950 INFO 127.0.0.1 - - [27/Jul/2025 20:36:12] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:13,391 INFO 127.0.0.1 - - [27/Jul/2025 20:36:13] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:13,637 INFO 127.0.0.1 - - [27/Jul/2025 20:36:13] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:14,453 INFO 127.0.0.1 - - [27/Jul/2025 20:36:14] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:14,754 INFO 127.0.0.1 - - [27/Jul/2025 20:36:14] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:15,067 INFO 127.0.0.1 - - [27/Jul/2025 20:36:15] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:15,372 INFO 127.0.0.1 - - [27/Jul/2025 20:36:15] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:16,733 INFO 127.0.0.1 - - [27/Jul/2025 20:36:16] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:36:16,985 INFO 127.0.0.1 - - [27/Jul/2025 20:36:16] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:37:30,483 INFO 127.0.0.1 - - [27/Jul/2025 20:37:30] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:37:30,714 INFO 127.0.0.1 - - [27/Jul/2025 20:37:30] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:37:30,722 INFO 127.0.0.1 - - [27/Jul/2025 20:37:30] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:37:30,976 INFO 127.0.0.1 - - [27/Jul/2025 20:37:30] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:24,229 INFO 127.0.0.1 - - [27/Jul/2025 20:38:24] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:24,478 INFO 127.0.0.1 - - [27/Jul/2025 20:38:24] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:24,484 INFO 127.0.0.1 - - [27/Jul/2025 20:38:24] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:24,735 INFO 127.0.0.1 - - [27/Jul/2025 20:38:24] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:24,846 INFO 127.0.0.1 - - [27/Jul/2025 20:38:24] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:25,103 INFO 127.0.0.1 - - [27/Jul/2025 20:38:25] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:25,159 INFO 127.0.0.1 - - [27/Jul/2025 20:38:25] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:25,416 INFO 127.0.0.1 - - [27/Jul/2025 20:38:25] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:25,423 INFO 127.0.0.1 - - [27/Jul/2025 20:38:25] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:25,721 INFO 127.0.0.1 - - [27/Jul/2025 20:38:25] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:27,174 INFO 127.0.0.1 - - [27/Jul/2025 20:38:27] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:27,559 INFO 127.0.0.1 - - [27/Jul/2025 20:38:27] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:28,602 INFO 127.0.0.1 - - [27/Jul/2025 20:38:28] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:28,804 INFO 127.0.0.1 - - [27/Jul/2025 20:38:28] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:29,206 INFO 127.0.0.1 - - [27/Jul/2025 20:38:29] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:29,373 INFO 127.0.0.1 - - [27/Jul/2025 20:38:29] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:29,624 INFO 127.0.0.1 - - [27/Jul/2025 20:38:29] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:32,794 INFO 127.0.0.1 - - [27/Jul/2025 20:38:32] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:34,318 INFO 127.0.0.1 - - [27/Jul/2025 20:38:34] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:38:34,518 INFO 127.0.0.1 - - [27/Jul/2025 20:38:34] "[33mGET /uploads/Stamen%20Terrain HTTP/1.1[0m" 404 -
+2025-07-27 20:39:39,658 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 20:42:18,125 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 20:42:18,126 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 20:42:18,129 INFO  * Restarting with stat
+2025-07-27 20:42:19,712 WARNING  * Debugger is active!
+2025-07-27 20:42:19,717 INFO  * Debugger PIN: 474-847-740
+2025-07-27 20:42:29,829 INFO 127.0.0.1 - - [27/Jul/2025 20:42:29] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:42:36,417 INFO 127.0.0.1 - - [27/Jul/2025 20:42:36] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:42:36,777 INFO 127.0.0.1 - - [27/Jul/2025 20:42:36] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-27 20:42:40,685 INFO 127.0.0.1 - - [27/Jul/2025 20:42:40] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-27 20:42:54,549 INFO 127.0.0.1 - - [27/Jul/2025 20:42:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-27 20:47:51,792 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 20:51:10,012 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 20:51:10,014 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 20:51:10,015 INFO  * Restarting with stat
+2025-07-27 20:51:11,708 WARNING  * Debugger is active!
+2025-07-27 20:51:11,714 INFO  * Debugger PIN: 474-847-740
+2025-07-27 20:52:53,013 INFO 127.0.0.1 - - [27/Jul/2025 20:52:53] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:52:58,353 INFO 127.0.0.1 - - [27/Jul/2025 20:52:58] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:52:58,770 INFO 127.0.0.1 - - [27/Jul/2025 20:52:58] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-27 20:53:01,711 INFO 127.0.0.1 - - [27/Jul/2025 20:53:01] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-27 20:53:56,712 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-27 20:54:28,674 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 20:54:28,675 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 20:54:28,677 INFO  * Restarting with stat
+2025-07-27 20:54:30,398 WARNING  * Debugger is active!
+2025-07-27 20:54:30,402 INFO  * Debugger PIN: 474-847-740
+2025-07-27 20:54:36,091 INFO 127.0.0.1 - - [27/Jul/2025 20:54:36] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:54:40,664 INFO 127.0.0.1 - - [27/Jul/2025 20:54:40] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 20:54:41,020 INFO 127.0.0.1 - - [27/Jul/2025 20:54:41] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-27 20:54:43,656 INFO 127.0.0.1 - - [27/Jul/2025 20:54:43] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-27 20:58:13,647 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\analysis.py', reloading
+2025-07-27 21:27:36,879 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 21:27:36,881 INFO [33mPress CTRL+C to quit[0m
+2025-07-27 21:27:36,883 INFO  * Restarting with stat
+2025-07-27 21:27:38,768 WARNING  * Debugger is active!
+2025-07-27 21:27:38,775 INFO  * Debugger PIN: 474-847-740
+2025-07-27 21:28:31,270 INFO 127.0.0.1 - - [27/Jul/2025 21:28:31] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-27 21:28:36,859 INFO 127.0.0.1 - - [27/Jul/2025 21:28:36] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-27 21:28:37,223 INFO 127.0.0.1 - - [27/Jul/2025 21:28:37] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-27 21:28:47,584 INFO 127.0.0.1 - - [27/Jul/2025 21:28:47] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-27 23:41:06,676 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\analysis.py', reloading
+2025-07-28 01:36:39,724 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 01:36:39,725 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 01:36:39,727 INFO  * Restarting with stat
+2025-07-28 01:36:41,615 WARNING  * Debugger is active!
+2025-07-28 01:36:41,620 INFO  * Debugger PIN: 474-847-740
+2025-07-28 01:37:02,456 INFO 127.0.0.1 - - [28/Jul/2025 01:37:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-28 01:37:12,128 INFO 127.0.0.1 - - [28/Jul/2025 01:37:12] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 01:37:12,393 ERROR {"error": "No .tif files found in the specified folder."}
+2025-07-28 01:37:12,394 INFO 127.0.0.1 - - [28/Jul/2025 01:37:12] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 01:45:11,171 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 01:45:11,172 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 01:45:11,173 INFO  * Restarting with stat
+2025-07-28 01:45:13,177 WARNING  * Debugger is active!
+2025-07-28 01:45:13,181 INFO  * Debugger PIN: 474-847-740
+2025-07-28 01:45:34,258 INFO 127.0.0.1 - - [28/Jul/2025 01:45:34] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 01:45:34,726 ERROR {"error": "invalid path or file: masked_array(\n  data=[[4622, 4485, 4366, ..., 5279, 5313,    0],\n        [4668, 4633, 4460, ..., 5364, 5417,    0],\n        [4659, 4694, 4517, ..., 5463, 5496,    0],\n        ...,\n        [1244, 1409, 1644, ..., 5758, 5611,    0],\n        [1351, 1448, 1626, ..., 5583, 5480,    0],\n        [   0,    0,    0, ...,    0,    0,    0]],\n  mask=False,\n  fill_value=np.int64(999999),\n  dtype=int16)"}
+2025-07-28 01:45:34,728 INFO 127.0.0.1 - - [28/Jul/2025 01:45:34] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 01:45:48,802 INFO 127.0.0.1 - - [28/Jul/2025 01:45:48] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 01:45:49,184 ERROR {"error": "invalid path or file: masked_array(\n  data=[[4622, 4485, 4366, ..., 5279, 5313, 4839],\n        [4668, 4633, 4460, ..., 5364, 5417, 4839],\n        [4659, 4694, 4517, ..., 5463, 5496, 4839],\n        ...,\n        [1244, 1409, 1644, ..., 5758, 5611, 4647],\n        [1351, 1448, 1626, ..., 5583, 5480, 4647],\n        [1524, 1524, 1524, ..., 4647, 4647, 4647]],\n  mask=False,\n  fill_value=np.int64(999999),\n  dtype=int16)"}
+2025-07-28 01:45:49,185 INFO 127.0.0.1 - - [28/Jul/2025 01:45:49] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 01:49:51,750 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 01:49:53,076 INFO  * Restarting with stat
+2025-07-28 01:49:56,562 WARNING  * Debugger is active!
+2025-07-28 01:49:56,567 INFO  * Debugger PIN: 474-847-740
+2025-07-28 01:50:42,836 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\file_parser.py', reloading
+2025-07-28 01:50:43,105 INFO  * Restarting with stat
+2025-07-28 01:50:45,638 WARNING  * Debugger is active!
+2025-07-28 01:50:45,642 INFO  * Debugger PIN: 474-847-740
+2025-07-28 01:51:11,799 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\file_parser.py', reloading
+2025-07-28 01:51:12,143 INFO  * Restarting with stat
+2025-07-28 01:51:14,209 WARNING  * Debugger is active!
+2025-07-28 01:51:14,213 INFO  * Debugger PIN: 474-847-740
+2025-07-28 01:51:38,351 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 01:51:38,639 INFO  * Restarting with stat
+2025-07-28 01:51:40,530 WARNING  * Debugger is active!
+2025-07-28 01:51:40,534 INFO  * Debugger PIN: 474-847-740
+2025-07-28 01:52:08,727 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 01:52:08,728 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 01:52:08,729 INFO  * Restarting with stat
+2025-07-28 01:52:10,588 WARNING  * Debugger is active!
+2025-07-28 01:52:10,592 INFO  * Debugger PIN: 474-847-740
+2025-07-28 01:52:36,351 INFO 127.0.0.1 - - [28/Jul/2025 01:52:36] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 01:52:36,846 ERROR {"error": "invalid path or file: masked_array(\n  data=[[4622, 4485, 4366, ..., 5279, 5313, 5228],\n        [4668, 4633, 4460, ..., 5364, 5417, 5228],\n        [4659, 4694, 4517, ..., 5463, 5496, 5228],\n        ...,\n        [1244, 1409, 1644, ..., 5758, 5611, 5364],\n        [1351, 1448, 1626, ..., 5583, 5480, 5364],\n        [1644, 1644, 1644, ..., 5364, 5364, 5364]],\n  mask=False,\n  fill_value=np.int64(999999),\n  dtype=int16)"}
+2025-07-28 01:52:36,847 INFO 127.0.0.1 - - [28/Jul/2025 01:52:36] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 01:53:04,144 INFO 127.0.0.1 - - [28/Jul/2025 01:53:04] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 01:53:04,521 ERROR {"error": "invalid path or file: masked_array(\n  data=[[4622, 4485, 4366, ..., 5279, 5313, 5259],\n        [4668, 4633, 4460, ..., 5364, 5417, 5259],\n        [4659, 4694, 4517, ..., 5463, 5496, 5259],\n        ...,\n        [1244, 1409, 1644, ..., 5758, 5611, 5467],\n        [1351, 1448, 1626, ..., 5583, 5480, 5467],\n        [1653, 1653, 1653, ..., 5467, 5467, 5467]],\n  mask=False,\n  fill_value=np.int64(999999),\n  dtype=int16)"}
+2025-07-28 01:53:04,522 INFO 127.0.0.1 - - [28/Jul/2025 01:53:04] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 02:02:04,906 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\file_parser.py', reloading
+2025-07-28 02:02:05,941 INFO  * Restarting with stat
+2025-07-28 02:02:09,166 WARNING  * Debugger is active!
+2025-07-28 02:02:09,171 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:02:19,249 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\file_parser.py', reloading
+2025-07-28 02:02:19,503 INFO  * Restarting with stat
+2025-07-28 02:02:21,588 WARNING  * Debugger is active!
+2025-07-28 02:02:21,592 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:02:29,652 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\file_parser.py', reloading
+2025-07-28 02:02:29,906 INFO  * Restarting with stat
+2025-07-28 02:02:31,787 WARNING  * Debugger is active!
+2025-07-28 02:02:31,792 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:02:44,401 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 02:02:44,401 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 02:02:44,403 INFO  * Restarting with stat
+2025-07-28 02:02:46,257 WARNING  * Debugger is active!
+2025-07-28 02:02:46,261 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:02:55,730 INFO 127.0.0.1 - - [28/Jul/2025 02:02:55] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:02:56,215 ERROR {"error": "invalid path or file: masked_array(\n  data=[[4622, 4485, 4366, ..., 5279, 5313, 5262],\n        [4668, 4633, 4460, ..., 5364, 5417, 5262],\n        [4659, 4694, 4517, ..., 5463, 5496, 5262],\n        ...,\n        [1244, 1409, 1644, ..., 5758, 5611, 5481],\n        [1351, 1448, 1626, ..., 5583, 5480, 5481],\n        [1654, 1654, 1654, ..., 5481, 5481, 5481]],\n  mask=False,\n  fill_value=np.int64(999999),\n  dtype=int16)"}
+2025-07-28 02:02:56,216 INFO 127.0.0.1 - - [28/Jul/2025 02:02:56] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 02:06:06,355 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:06:06,787 INFO  * Restarting with stat
+2025-07-28 02:06:09,582 WARNING  * Debugger is active!
+2025-07-28 02:06:09,586 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:06:45,801 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:06:46,065 INFO  * Restarting with stat
+2025-07-28 02:06:48,015 WARNING  * Debugger is active!
+2025-07-28 02:06:48,018 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:06:58,424 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 02:06:58,424 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 02:06:58,426 INFO  * Restarting with stat
+2025-07-28 02:07:00,414 WARNING  * Debugger is active!
+2025-07-28 02:07:00,418 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:07:35,868 INFO 127.0.0.1 - - [28/Jul/2025 02:07:35] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:07:36,838 ERROR {"error": "Image data of dtype <U21 cannot be converted to float"}
+2025-07-28 02:07:36,840 INFO 127.0.0.1 - - [28/Jul/2025 02:07:36] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 02:12:49,389 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 02:12:50,950 INFO  * Restarting with stat
+2025-07-28 02:12:53,792 WARNING  * Debugger is active!
+2025-07-28 02:12:53,797 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:13:15,125 INFO 127.0.0.1 - - [28/Jul/2025 02:13:15] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:13:16,174 ERROR {"error": "Image data of dtype <U21 cannot be converted to float"}
+2025-07-28 02:13:16,177 INFO 127.0.0.1 - - [28/Jul/2025 02:13:16] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 02:13:32,550 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 02:13:32,550 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 02:13:32,552 INFO  * Restarting with stat
+2025-07-28 02:13:34,693 WARNING  * Debugger is active!
+2025-07-28 02:13:34,698 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:13:39,900 INFO 127.0.0.1 - - [28/Jul/2025 02:13:39] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:13:40,982 ERROR {"error": "Image data of dtype <U21 cannot be converted to float"}
+2025-07-28 02:13:40,983 INFO 127.0.0.1 - - [28/Jul/2025 02:13:40] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 02:15:26,377 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:15:27,814 INFO  * Restarting with stat
+2025-07-28 02:15:30,783 WARNING  * Debugger is active!
+2025-07-28 02:15:30,787 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:17:11,357 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:17:11,799 INFO  * Restarting with stat
+2025-07-28 02:17:14,322 WARNING  * Debugger is active!
+2025-07-28 02:17:14,326 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:17:51,007 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 02:17:51,008 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 02:17:51,009 INFO  * Restarting with stat
+2025-07-28 02:17:53,192 WARNING  * Debugger is active!
+2025-07-28 02:17:53,195 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:18:01,401 INFO 127.0.0.1 - - [28/Jul/2025 02:18:01] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:18:02,384 ERROR {"error": "Image data of dtype <U21 cannot be converted to float"}
+2025-07-28 02:18:02,385 INFO 127.0.0.1 - - [28/Jul/2025 02:18:02] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 02:19:06,684 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:19:08,103 INFO  * Restarting with stat
+2025-07-28 02:19:42,590 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 02:19:42,590 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 02:19:42,591 INFO  * Restarting with stat
+2025-07-28 02:19:44,509 WARNING  * Debugger is active!
+2025-07-28 02:19:44,513 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:19:49,468 INFO 127.0.0.1 - - [28/Jul/2025 02:19:49] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:19:50,340 ERROR {"error": "Image data of dtype <U21 cannot be converted to float"}
+2025-07-28 02:19:50,342 INFO 127.0.0.1 - - [28/Jul/2025 02:19:50] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 02:29:07,784 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:29:10,484 INFO  * Restarting with stat
+2025-07-28 02:29:15,157 WARNING  * Debugger is active!
+2025-07-28 02:29:15,171 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:29:46,502 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:29:46,880 INFO  * Restarting with stat
+2025-07-28 02:29:51,727 WARNING  * Debugger is active!
+2025-07-28 02:29:51,745 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:30:16,003 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:30:16,400 INFO  * Restarting with stat
+2025-07-28 02:30:21,199 WARNING  * Debugger is active!
+2025-07-28 02:30:21,214 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:30:31,386 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:30:31,866 INFO  * Restarting with stat
+2025-07-28 02:30:36,578 WARNING  * Debugger is active!
+2025-07-28 02:30:36,586 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:31:04,246 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 02:31:04,247 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 02:31:04,250 INFO  * Restarting with stat
+2025-07-28 02:31:07,959 WARNING  * Debugger is active!
+2025-07-28 02:31:07,966 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:31:12,403 INFO 127.0.0.1 - - [28/Jul/2025 02:31:12] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:31:20,902 INFO 127.0.0.1 - - [28/Jul/2025 02:31:20] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:31:21,362 INFO 127.0.0.1 - - [28/Jul/2025 02:31:21] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 02:31:29,969 INFO 127.0.0.1 - - [28/Jul/2025 02:31:29] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 02:33:30,671 INFO 127.0.0.1 - - [28/Jul/2025 02:33:30] "GET /uploads/merged_dem.tif HTTP/1.1" 200 -
+2025-07-28 02:33:41,995 INFO 127.0.0.1 - - [28/Jul/2025 02:33:41] "[33mGET /uploads/slope_map.tif HTTP/1.1[0m" 404 -
+2025-07-28 02:33:42,063 INFO 127.0.0.1 - - [28/Jul/2025 02:33:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-28 02:33:42,247 INFO 127.0.0.1 - - [28/Jul/2025 02:33:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-28 02:35:44,420 INFO 127.0.0.1 - - [28/Jul/2025 02:35:44] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:35:53,221 INFO 127.0.0.1 - - [28/Jul/2025 02:35:53] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 02:35:53,538 INFO 127.0.0.1 - - [28/Jul/2025 02:35:53] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 02:37:37,088 INFO 127.0.0.1 - - [28/Jul/2025 02:37:37] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 02:38:37,757 INFO 127.0.0.1 - - [28/Jul/2025 02:38:37] "GET /uploads/merged_dem.tif HTTP/1.1" 200 -
+2025-07-28 02:39:51,043 INFO 127.0.0.1 - - [28/Jul/2025 02:39:51] "[33mGET /uploads/slope_map.tif HTTP/1.1[0m" 404 -
+2025-07-28 02:39:51,122 INFO 127.0.0.1 - - [28/Jul/2025 02:39:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-28 02:44:08,415 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:44:10,319 INFO  * Restarting with stat
+2025-07-28 02:44:15,109 WARNING  * Debugger is active!
+2025-07-28 02:44:15,117 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:45:49,134 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\analysis.py', reloading
+2025-07-28 02:45:49,650 INFO  * Restarting with stat
+2025-07-28 02:45:54,218 WARNING  * Debugger is active!
+2025-07-28 02:45:54,226 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:46:11,434 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 02:46:11,972 INFO  * Restarting with stat
+2025-07-28 02:46:15,661 WARNING  * Debugger is active!
+2025-07-28 02:46:15,669 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:48:41,090 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 02:48:41,555 INFO  * Restarting with stat
+2025-07-28 02:48:45,067 WARNING  * Debugger is active!
+2025-07-28 02:48:45,074 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:49:03,279 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 02:49:03,618 INFO  * Restarting with stat
+2025-07-28 02:49:07,498 WARNING  * Debugger is active!
+2025-07-28 02:49:07,505 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:49:34,860 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 02:49:35,235 INFO  * Restarting with stat
+2025-07-28 02:49:38,568 WARNING  * Debugger is active!
+2025-07-28 02:49:38,575 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:52:12,114 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\analysis.py', reloading
+2025-07-28 02:52:12,667 INFO  * Restarting with stat
+2025-07-28 02:52:16,866 WARNING  * Debugger is active!
+2025-07-28 02:52:16,873 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:53:12,495 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\logging.py', reloading
+2025-07-28 02:53:13,045 INFO  * Restarting with stat
+2025-07-28 02:53:17,404 WARNING  * Debugger is active!
+2025-07-28 02:53:17,409 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:53:32,565 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 02:53:32,951 INFO  * Restarting with stat
+2025-07-28 02:53:37,396 WARNING  * Debugger is active!
+2025-07-28 02:53:37,403 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:53:50,545 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\logging.py', reloading
+2025-07-28 02:53:50,897 INFO  * Restarting with stat
+2025-07-28 02:53:54,976 WARNING  * Debugger is active!
+2025-07-28 02:53:54,985 INFO  * Debugger PIN: 474-847-740
+2025-07-28 02:59:32,197 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 02:59:32,199 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 02:59:32,203 INFO  * Restarting with stat
+2025-07-28 02:59:35,834 WARNING  * Debugger is active!
+2025-07-28 02:59:35,841 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:00:11,205 INFO 127.0.0.1 - - [28/Jul/2025 03:00:11] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:09:42,037 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 03:09:44,041 INFO  * Restarting with stat
+2025-07-28 03:09:48,666 WARNING  * Debugger is active!
+2025-07-28 03:09:48,674 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:09:56,774 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 03:09:57,159 INFO  * Restarting with stat
+2025-07-28 03:10:00,955 WARNING  * Debugger is active!
+2025-07-28 03:10:00,960 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:12:11,340 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 03:12:11,341 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 03:12:11,344 INFO  * Restarting with stat
+2025-07-28 03:12:14,921 WARNING  * Debugger is active!
+2025-07-28 03:12:14,930 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:12:35,072 INFO 127.0.0.1 - - [28/Jul/2025 03:12:35] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:12:38,171 INFO 127.0.0.1 - - [28/Jul/2025 03:12:38] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:12:38,735 INFO 127.0.0.1 - - [28/Jul/2025 03:12:38] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 03:12:38,770 INFO 127.0.0.1 - - [28/Jul/2025 03:12:38] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 03:13:00,126 INFO 127.0.0.1 - - [28/Jul/2025 03:13:00] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:13:03,024 INFO 127.0.0.1 - - [28/Jul/2025 03:13:03] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:13:03,405 INFO 127.0.0.1 - - [28/Jul/2025 03:13:03] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 03:13:03,416 INFO 127.0.0.1 - - [28/Jul/2025 03:13:03] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 03:13:29,717 INFO 127.0.0.1 - - [28/Jul/2025 03:13:29] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:13:30,001 ERROR {"error": "Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required."}
+2025-07-28 03:13:30,003 INFO 127.0.0.1 - - [28/Jul/2025 03:13:30] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 03:13:30,300 ERROR {"error": "Invalid input DEM: contains only nodata or NaN", "file": "Uploads\\merged_dem.tif"}
+2025-07-28 03:13:30,301 ERROR {"error": "No valid DEM files after processing"}
+2025-07-28 03:13:30,302 INFO 127.0.0.1 - - [28/Jul/2025 03:13:30] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 03:13:37,554 INFO 127.0.0.1 - - [28/Jul/2025 03:13:37] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:13:37,820 ERROR {"error": "Invalid input DEM: contains only nodata or NaN", "file": "Uploads\\merged_dem.tif"}
+2025-07-28 03:13:37,820 ERROR {"error": "No valid DEM files after processing"}
+2025-07-28 03:13:37,821 INFO 127.0.0.1 - - [28/Jul/2025 03:13:37] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 03:13:40,419 ERROR {"error": "Invalid input DEM: contains only nodata or NaN", "file": "Uploads\\merged_dem.tif"}
+2025-07-28 03:13:40,419 ERROR {"error": "No valid DEM files after processing"}
+2025-07-28 03:13:40,421 INFO 127.0.0.1 - - [28/Jul/2025 03:13:40] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 03:18:06,454 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 03:18:08,929 INFO  * Restarting with stat
+2025-07-28 03:18:13,681 WARNING  * Debugger is active!
+2025-07-28 03:18:13,689 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:18:56,175 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 03:18:56,941 INFO  * Restarting with stat
+2025-07-28 03:19:00,470 WARNING  * Debugger is active!
+2025-07-28 03:19:00,476 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:19:44,057 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 03:19:44,386 INFO  * Restarting with stat
+2025-07-28 03:19:48,072 WARNING  * Debugger is active!
+2025-07-28 03:19:48,079 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:19:51,130 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 03:19:51,533 INFO  * Restarting with stat
+2025-07-28 03:19:55,045 WARNING  * Debugger is active!
+2025-07-28 03:19:55,052 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:20:02,153 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 03:20:02,636 INFO  * Restarting with stat
+2025-07-28 03:20:06,301 WARNING  * Debugger is active!
+2025-07-28 03:20:06,305 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:25:21,830 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 03:25:21,831 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 03:25:21,834 INFO  * Restarting with stat
+2025-07-28 03:25:25,237 WARNING  * Debugger is active!
+2025-07-28 03:25:25,244 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:25:34,000 INFO 127.0.0.1 - - [28/Jul/2025 03:25:34] "[35m[1mOPTIONS /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 03:28:56,510 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 03:28:58,043 INFO  * Restarting with stat
+2025-07-28 03:29:02,624 WARNING  * Debugger is active!
+2025-07-28 03:29:02,632 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:29:06,708 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 03:29:07,187 INFO  * Restarting with stat
+2025-07-28 03:29:10,525 WARNING  * Debugger is active!
+2025-07-28 03:29:10,531 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:32:06,720 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 03:32:06,721 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 03:32:06,724 INFO  * Restarting with stat
+2025-07-28 03:32:09,900 WARNING  * Debugger is active!
+2025-07-28 03:32:09,907 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:32:24,313 INFO 127.0.0.1 - - [28/Jul/2025 03:32:24] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:32:28,978 INFO 127.0.0.1 - - [28/Jul/2025 03:32:28] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:32:29,364 INFO 127.0.0.1 - - [28/Jul/2025 03:32:29] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 03:32:39,965 INFO 127.0.0.1 - - [28/Jul/2025 03:32:39] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 03:34:34,405 INFO 127.0.0.1 - - [28/Jul/2025 03:34:34] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:34:39,303 INFO 127.0.0.1 - - [28/Jul/2025 03:34:39] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:34:39,620 INFO 127.0.0.1 - - [28/Jul/2025 03:34:39] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 03:34:45,291 INFO 127.0.0.1 - - [28/Jul/2025 03:34:45] "GET /uploads/merged_dem.tif HTTP/1.1" 200 -
+2025-07-28 03:34:48,706 INFO 127.0.0.1 - - [28/Jul/2025 03:34:48] "GET /uploads/slope_map_colored.png HTTP/1.1" 200 -
+2025-07-28 03:34:48,757 INFO 127.0.0.1 - - [28/Jul/2025 03:34:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-28 03:35:00,909 INFO 127.0.0.1 - - [28/Jul/2025 03:35:00] "[36mGET /uploads/slope_map_colored.png HTTP/1.1[0m" 304 -
+2025-07-28 03:35:01,141 INFO 127.0.0.1 - - [28/Jul/2025 03:35:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-28 03:35:04,311 INFO 127.0.0.1 - - [28/Jul/2025 03:35:04] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:35:08,550 INFO 127.0.0.1 - - [28/Jul/2025 03:35:08] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:35:08,911 INFO 127.0.0.1 - - [28/Jul/2025 03:35:08] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 03:35:08,914 INFO 127.0.0.1 - - [28/Jul/2025 03:35:08] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 03:37:28,933 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 03:37:30,004 INFO  * Restarting with stat
+2025-07-28 03:37:32,912 WARNING  * Debugger is active!
+2025-07-28 03:37:32,917 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:38:59,455 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 03:38:59,732 INFO  * Restarting with stat
+2025-07-28 03:42:47,571 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 03:42:47,571 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 03:42:47,574 INFO  * Restarting with stat
+2025-07-28 03:42:49,447 WARNING  * Debugger is active!
+2025-07-28 03:42:49,451 INFO  * Debugger PIN: 474-847-740
+2025-07-28 03:42:55,336 INFO 127.0.0.1 - - [28/Jul/2025 03:42:55] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:43:00,064 INFO {"message": "Interactive map generated", "output_path": "uploads/interactive_map.html"}
+2025-07-28 03:43:00,242 INFO 127.0.0.1 - - [28/Jul/2025 03:43:00] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 03:43:00,613 INFO 127.0.0.1 - - [28/Jul/2025 03:43:00] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 03:43:05,908 INFO 127.0.0.1 - - [28/Jul/2025 03:43:05] "GET /uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 03:50:16,353 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 03:50:17,763 INFO  * Restarting with stat
+2025-07-28 03:50:22,098 WARNING  * Debugger is active!
+2025-07-28 03:50:22,102 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:04:22,349 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 04:04:22,350 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 04:04:22,356 INFO  * Restarting with stat
+2025-07-28 04:04:24,220 WARNING  * Debugger is active!
+2025-07-28 04:04:24,225 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:04:42,730 INFO 127.0.0.1 - - [28/Jul/2025 04:04:42] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:04:42,921 ERROR {"error": "No .tif files found in the specified folder.", "folder_path": "Uploads/input"}
+2025-07-28 04:04:42,922 ERROR {"error": "No .tif files found in the specified folder."}
+2025-07-28 04:04:42,923 INFO 127.0.0.1 - - [28/Jul/2025 04:04:42] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 04:05:12,765 INFO 127.0.0.1 - - [28/Jul/2025 04:05:12] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:05:13,025 ERROR {"error": "No .tif files found in the specified folder.", "folder_path": "Uploads/input"}
+2025-07-28 04:05:13,026 ERROR {"error": "No .tif files found in the specified folder."}
+2025-07-28 04:05:13,026 INFO 127.0.0.1 - - [28/Jul/2025 04:05:13] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 04:05:55,719 INFO 127.0.0.1 - - [28/Jul/2025 04:05:55] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:05:55,981 ERROR {"error": "No .tif files found in the specified folder.", "folder_path": "Uploads/input"}
+2025-07-28 04:05:55,982 ERROR {"error": "No .tif files found in the specified folder."}
+2025-07-28 04:05:55,982 INFO 127.0.0.1 - - [28/Jul/2025 04:05:55] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 04:08:49,780 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 04:08:50,607 INFO  * Restarting with stat
+2025-07-28 04:08:50,695 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 04:08:51,396 INFO  * Restarting with stat
+2025-07-28 04:08:53,845 WARNING  * Debugger is active!
+2025-07-28 04:08:53,848 WARNING  * Debugger is active!
+2025-07-28 04:08:53,852 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:08:53,852 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:09:16,473 INFO {"message": "Found TIFF files", "files": [], "folder_path": "Uploads/input"}
+2025-07-28 04:09:16,473 ERROR {"error": "No .tif files found in the specified folder.", "folder_path": "Uploads/input"}
+2025-07-28 04:09:16,473 ERROR {"error": "No .tif files found in the specified folder."}
+2025-07-28 04:09:16,475 INFO 127.0.0.1 - - [28/Jul/2025 04:09:16] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 04:10:15,057 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 04:10:15,058 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 04:10:15,059 INFO  * Restarting with stat
+2025-07-28 04:10:17,002 WARNING  * Debugger is active!
+2025-07-28 04:10:17,006 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:10:30,531 INFO 127.0.0.1 - - [28/Jul/2025 04:10:30] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:10:30,783 INFO {"message": "Found TIFF files", "files": [], "folder_path": "Uploads/input"}
+2025-07-28 04:10:30,783 ERROR {"error": "No .tif files found in the specified folder.", "folder_path": "Uploads/input"}
+2025-07-28 04:10:30,783 ERROR {"error": "No .tif files found in the specified folder."}
+2025-07-28 04:10:30,784 INFO 127.0.0.1 - - [28/Jul/2025 04:10:30] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 04:16:39,406 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 04:16:39,765 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 04:16:40,266 INFO  * Restarting with stat
+2025-07-28 04:16:40,649 INFO  * Restarting with stat
+2025-07-28 04:16:43,118 WARNING  * Debugger is active!
+2025-07-28 04:16:43,120 WARNING  * Debugger is active!
+2025-07-28 04:16:43,124 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:16:43,125 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:16:46,159 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 04:16:46,159 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 04:16:46,657 INFO  * Restarting with stat
+2025-07-28 04:16:46,700 INFO  * Restarting with stat
+2025-07-28 04:16:49,710 WARNING  * Debugger is active!
+2025-07-28 04:16:49,719 WARNING  * Debugger is active!
+2025-07-28 04:16:49,729 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:16:49,732 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:18:17,021 INFO {"message": "Found TIFF files", "files": ["Uploads/input\\ASTGTMV003_N32E073_dem.tif", "Uploads/input\\ASTGTMV003_N32E074_dem.tif", "Uploads/input\\ASTGTMV003_N32E075_dem.tif", "Uploads/input\\ASTGTMV003_N33E073_dem.tif", "Uploads/input\\ASTGTMV003_N33E074_dem.tif", "Uploads/input\\ASTGTMV003_N33E075_dem.tif"], "folder_path": "Uploads/input"}
+2025-07-28 04:18:21,744 INFO {"message": "Interactive map generated", "output_path": "uploads/interactive_map.html"}
+2025-07-28 04:18:21,919 INFO 127.0.0.1 - - [28/Jul/2025 04:18:21] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:18:33,737 INFO 127.0.0.1 - - [28/Jul/2025 04:18:33] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:18:33,993 INFO {"message": "Found TIFF files", "files": ["Uploads/input\\ASTGTMV003_N32E073_dem.tif", "Uploads/input\\ASTGTMV003_N32E074_dem.tif", "Uploads/input\\ASTGTMV003_N32E075_dem.tif", "Uploads/input\\ASTGTMV003_N33E073_dem.tif", "Uploads/input\\ASTGTMV003_N33E074_dem.tif", "Uploads/input\\ASTGTMV003_N33E075_dem.tif"], "folder_path": "Uploads/input"}
+2025-07-28 04:18:38,734 INFO {"message": "Interactive map generated", "output_path": "uploads/interactive_map.html"}
+2025-07-28 04:18:38,915 INFO 127.0.0.1 - - [28/Jul/2025 04:18:38] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:18:39,325 INFO 127.0.0.1 - - [28/Jul/2025 04:18:39] "GET /uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 04:39:28,238 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 04:39:28,239 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 04:39:28,241 INFO  * Restarting with stat
+2025-07-28 04:39:30,093 WARNING  * Debugger is active!
+2025-07-28 04:39:30,097 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:42:20,414 INFO 127.0.0.1 - - [28/Jul/2025 04:42:20] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:42:20,596 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 04:42:20,596 ERROR {"error": "'module' object is not callable. Did you mean: 'glob.glob(...)'?"}
+2025-07-28 04:42:20,597 INFO 127.0.0.1 - - [28/Jul/2025 04:42:20] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 04:45:46,510 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 04:45:47,296 INFO  * Restarting with stat
+2025-07-28 04:45:50,978 WARNING  * Debugger is active!
+2025-07-28 04:45:50,984 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:46:30,239 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 04:46:30,621 INFO  * Restarting with stat
+2025-07-28 04:46:33,084 WARNING  * Debugger is active!
+2025-07-28 04:46:33,087 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:46:37,124 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 04:46:37,463 INFO  * Restarting with stat
+2025-07-28 04:46:39,580 WARNING  * Debugger is active!
+2025-07-28 04:46:39,585 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:46:43,629 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 04:46:43,927 INFO  * Restarting with stat
+2025-07-28 04:46:45,990 WARNING  * Debugger is active!
+2025-07-28 04:46:45,994 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:48:58,834 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 04:48:59,122 INFO  * Restarting with stat
+2025-07-28 04:51:40,195 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 04:51:40,198 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 04:51:40,201 INFO  * Restarting with stat
+2025-07-28 04:51:43,657 WARNING  * Debugger is active!
+2025-07-28 04:51:43,667 INFO  * Debugger PIN: 474-847-740
+2025-07-28 04:52:12,986 INFO 127.0.0.1 - - [28/Jul/2025 04:52:12] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 04:52:13,256 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 04:52:13,257 ERROR {"error": "'module' object is not callable. Did you mean: 'glob.glob(...)'?"}
+2025-07-28 04:52:13,259 INFO 127.0.0.1 - - [28/Jul/2025 04:52:13] "[35m[1mPOST /merge-dem HTTP/1.1[0m" 500 -
+2025-07-28 04:57:26,488 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 04:57:28,281 INFO  * Restarting with stat
+2025-07-28 05:01:32,105 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 05:01:32,106 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 05:01:32,110 INFO  * Restarting with stat
+2025-07-28 05:01:35,536 WARNING  * Debugger is active!
+2025-07-28 05:01:35,546 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:01:45,251 INFO {"message": "File uploaded successfully", "filename": "ASTGTMV003_N32E073_dem.tif", "path": "Uploads/input\\ASTGTMV003_N32E073_dem.tif"}
+2025-07-28 05:01:45,255 INFO 127.0.0.1 - - [28/Jul/2025 05:01:45] "POST /upload-tif HTTP/1.1" 200 -
+2025-07-28 05:01:56,818 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:01:57,127 INFO {"message": "Starting DEM merge", "folder_path": "Uploads/input"}
+2025-07-28 05:01:57,129 INFO {"message": "Found TIFF files", "files": ["Uploads/input\\ASTGTMV003_N32E073_dem.tif", "Uploads/input\\ASTGTMV003_N32E074_dem.tif", "Uploads/input\\ASTGTMV003_N32E075_dem.tif", "Uploads/input\\ASTGTMV003_N33E073_dem.tif", "Uploads/input\\ASTGTMV003_N33E074_dem.tif", "Uploads/input\\ASTGTMV003_N33E075_dem.tif"], "folder_path": "Uploads/input"}
+2025-07-28 05:01:57,426 INFO {"message": "Generating static preview", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:02:02,176 INFO {"message": "Generating folium map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:02:02,816 INFO {"message": "Interactive map generated", "output_path": "uploads/interactive_map.html"}
+2025-07-28 05:02:02,817 INFO {"message": "Extracting elevation stats", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:02:02,828 INFO {"message": "Generating slope map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:02:02,990 INFO 127.0.0.1 - - [28/Jul/2025 05:02:02] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:02:45,130 INFO 127.0.0.1 - - [28/Jul/2025 05:02:45] "GET /api/export?format=csv HTTP/1.1" 200 -
+2025-07-28 05:07:17,992 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 05:07:19,629 INFO  * Restarting with stat
+2025-07-28 05:07:25,354 WARNING  * Debugger is active!
+2025-07-28 05:07:25,362 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:07:50,659 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 05:07:50,982 INFO  * Restarting with stat
+2025-07-28 05:07:54,923 WARNING  * Debugger is active!
+2025-07-28 05:07:54,931 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:08:10,739 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 05:08:10,740 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 05:08:10,743 INFO  * Restarting with stat
+2025-07-28 05:08:14,251 WARNING  * Debugger is active!
+2025-07-28 05:08:14,258 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:08:23,064 INFO 127.0.0.1 - - [28/Jul/2025 05:08:23] "GET /api/export?format=csv HTTP/1.1" 200 -
+2025-07-28 05:09:10,759 INFO 127.0.0.1 - - [28/Jul/2025 05:09:10] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:09:11,024 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:09:11,328 INFO {"message": "Starting DEM merge", "folder_path": "Uploads/input"}
+2025-07-28 05:09:11,329 INFO {"message": "Found TIFF files", "files": ["Uploads/input\\ASTGTMV003_N32E073_dem.tif", "Uploads/input\\ASTGTMV003_N32E074_dem.tif", "Uploads/input\\ASTGTMV003_N32E075_dem.tif", "Uploads/input\\ASTGTMV003_N33E073_dem.tif", "Uploads/input\\ASTGTMV003_N33E074_dem.tif", "Uploads/input\\ASTGTMV003_N33E075_dem.tif"], "folder_path": "Uploads/input"}
+2025-07-28 05:09:11,763 INFO {"message": "Generating static preview", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:09:16,688 INFO {"message": "Generating folium map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:09:17,394 INFO {"message": "Interactive map generated", "output_path": "uploads/interactive_map.html"}
+2025-07-28 05:09:17,396 INFO {"message": "Extracting elevation stats", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:09:17,408 INFO {"message": "Generating slope map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:09:17,567 INFO 127.0.0.1 - - [28/Jul/2025 05:09:17] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:09:17,887 INFO 127.0.0.1 - - [28/Jul/2025 05:09:17] "[33mGET /Uploads/merged_dem_with_hillshade.png HTTP/1.1[0m" 404 -
+2025-07-28 05:09:30,567 INFO 127.0.0.1 - - [28/Jul/2025 05:09:30] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:09:30,832 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:09:31,126 INFO 127.0.0.1 - - [28/Jul/2025 05:09:31] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:09:31,437 INFO 127.0.0.1 - - [28/Jul/2025 05:09:31] "[33mGET /Uploads/merged_dem_with_hillshade.png HTTP/1.1[0m" 404 -
+2025-07-28 05:09:35,762 INFO 127.0.0.1 - - [28/Jul/2025 05:09:35] "[33mGET /Uploads/interactive_map.html HTTP/1.1[0m" 404 -
+2025-07-28 05:09:44,406 INFO 127.0.0.1 - - [28/Jul/2025 05:09:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-28 05:20:26,938 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 05:20:28,745 INFO  * Restarting with stat
+2025-07-28 05:20:35,129 WARNING  * Debugger is active!
+2025-07-28 05:20:35,137 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:20:51,332 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 05:20:51,921 INFO  * Restarting with stat
+2025-07-28 05:20:55,779 WARNING  * Debugger is active!
+2025-07-28 05:20:55,787 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:23:10,451 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 05:23:11,291 INFO  * Restarting with stat
+2025-07-28 05:23:15,962 WARNING  * Debugger is active!
+2025-07-28 05:23:15,969 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:23:17,003 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 05:23:17,283 INFO  * Restarting with stat
+2025-07-28 05:23:20,003 WARNING  * Debugger is active!
+2025-07-28 05:23:20,008 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:23:40,989 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 05:23:40,989 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 05:23:40,992 INFO  * Restarting with stat
+2025-07-28 05:23:44,295 WARNING  * Debugger is active!
+2025-07-28 05:23:44,302 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:23:57,702 INFO 127.0.0.1 - - [28/Jul/2025 05:23:57] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:23:57,937 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:23:58,265 INFO {"message": "Starting DEM merge", "folder_path": "Uploads/input"}
+2025-07-28 05:23:58,266 INFO {"message": "Found TIFF files", "files": ["Uploads/input\\ASTGTMV003_N32E073_dem.tif", "Uploads/input\\ASTGTMV003_N32E074_dem.tif", "Uploads/input\\ASTGTMV003_N32E075_dem.tif", "Uploads/input\\ASTGTMV003_N33E073_dem.tif", "Uploads/input\\ASTGTMV003_N33E074_dem.tif", "Uploads/input\\ASTGTMV003_N33E075_dem.tif"], "folder_path": "Uploads/input"}
+2025-07-28 05:23:58,758 INFO {"message": "Generating static preview", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:24:04,264 INFO {"message": "Generating folium map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:24:05,097 INFO {"message": "Interactive map generated", "output_path": "uploads/interactive_map.html"}
+2025-07-28 05:24:05,098 INFO {"message": "Extracting elevation stats", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:24:05,120 INFO {"message": "Generating slope map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:24:05,390 INFO 127.0.0.1 - - [28/Jul/2025 05:24:05] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:24:05,714 INFO 127.0.0.1 - - [28/Jul/2025 05:24:05] "[33mGET /Uploads/merged_dem_with_hillshade.png HTTP/1.1[0m" 404 -
+2025-07-28 05:24:10,249 INFO 127.0.0.1 - - [28/Jul/2025 05:24:10] "[33mGET /Uploads/interactive_map.html HTTP/1.1[0m" 404 -
+2025-07-28 05:24:20,157 INFO 127.0.0.1 - - [28/Jul/2025 05:24:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-28 05:26:43,243 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 05:26:44,617 INFO  * Restarting with stat
+2025-07-28 05:26:50,319 WARNING  * Debugger is active!
+2025-07-28 05:26:50,330 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:27:02,494 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 05:27:02,858 INFO  * Restarting with stat
+2025-07-28 05:27:06,472 WARNING  * Debugger is active!
+2025-07-28 05:27:06,479 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:27:16,636 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\utils\\merge_and_plot_dem.py', reloading
+2025-07-28 05:27:16,953 INFO  * Restarting with stat
+2025-07-28 05:27:20,523 WARNING  * Debugger is active!
+2025-07-28 05:27:20,531 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:27:44,820 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 05:27:45,433 INFO  * Restarting with stat
+2025-07-28 05:27:49,340 WARNING  * Debugger is active!
+2025-07-28 05:27:49,347 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:27:57,489 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 05:27:57,894 INFO  * Restarting with stat
+2025-07-28 05:28:01,717 WARNING  * Debugger is active!
+2025-07-28 05:28:01,725 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:28:33,098 INFO  * Detected change in 'C:\\Users\\91884\\military_terrain_dashboard\\backend\\main.py', reloading
+2025-07-28 05:28:33,459 INFO  * Restarting with stat
+2025-07-28 05:29:10,891 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 05:29:10,891 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 05:29:10,896 INFO  * Restarting with stat
+2025-07-28 05:29:14,370 WARNING  * Debugger is active!
+2025-07-28 05:29:14,380 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:29:21,310 INFO 127.0.0.1 - - [28/Jul/2025 05:29:21] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:29:21,574 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:29:21,870 INFO {"message": "Starting DEM merge", "folder_path": "Uploads/input"}
+2025-07-28 05:29:21,870 INFO {"message": "Found TIFF files", "files": ["Uploads/input\\ASTGTMV003_N32E073_dem.tif", "Uploads/input\\ASTGTMV003_N32E074_dem.tif", "Uploads/input\\ASTGTMV003_N32E075_dem.tif", "Uploads/input\\ASTGTMV003_N33E073_dem.tif", "Uploads/input\\ASTGTMV003_N33E074_dem.tif", "Uploads/input\\ASTGTMV003_N33E075_dem.tif"], "folder_path": "Uploads/input"}
+2025-07-28 05:29:22,290 INFO {"message": "Generating static preview", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:29:27,544 INFO {"message": "Generating folium map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:29:28,274 INFO {"message": "Interactive map generated", "output_path": "Uploads/interactive_map.html"}
+2025-07-28 05:29:28,276 INFO {"message": "Extracting elevation stats", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:29:28,288 INFO {"message": "Generating slope map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:29:28,457 INFO 127.0.0.1 - - [28/Jul/2025 05:29:28] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:29:28,880 INFO 127.0.0.1 - - [28/Jul/2025 05:29:28] "GET /Uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 05:29:33,615 INFO 127.0.0.1 - - [28/Jul/2025 05:29:33] "GET /Uploads/interactive_map.html HTTP/1.1" 200 -
+2025-07-28 05:39:46,010 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-28 05:39:46,012 INFO [33mPress CTRL+C to quit[0m
+2025-07-28 05:39:46,016 INFO  * Restarting with stat
+2025-07-28 05:39:50,218 WARNING  * Debugger is active!
+2025-07-28 05:39:50,225 INFO  * Debugger PIN: 474-847-740
+2025-07-28 05:39:55,701 INFO 127.0.0.1 - - [28/Jul/2025 05:39:55] "[36mGET /Uploads/interactive_map.html HTTP/1.1[0m" 304 -
+2025-07-28 05:41:32,065 INFO 127.0.0.1 - - [28/Jul/2025 05:41:32] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:41:32,279 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:41:32,570 INFO {"message": "Starting DEM merge", "folder_path": "Uploads/input"}
+2025-07-28 05:41:32,573 INFO {"message": "Found TIFF files", "files": ["Uploads/input\\ASTGTMV003_N32E073_dem.tif", "Uploads/input\\ASTGTMV003_N32E074_dem.tif", "Uploads/input\\ASTGTMV003_N32E075_dem.tif", "Uploads/input\\ASTGTMV003_N33E073_dem.tif", "Uploads/input\\ASTGTMV003_N33E074_dem.tif", "Uploads/input\\ASTGTMV003_N33E075_dem.tif"], "folder_path": "Uploads/input"}
+2025-07-28 05:41:33,114 INFO {"message": "Generating static preview", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:41:38,990 INFO {"message": "Generating folium map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:41:39,892 INFO {"message": "Interactive map generated", "output_path": "Uploads/interactive_map.html"}
+2025-07-28 05:41:39,894 INFO {"message": "Extracting elevation stats", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:41:39,907 INFO {"message": "Generating slope map", "merged_tif_path": "Uploads/input\\merged_dem.tif"}
+2025-07-28 05:41:40,094 INFO 127.0.0.1 - - [28/Jul/2025 05:41:40] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:41:40,418 INFO 127.0.0.1 - - [28/Jul/2025 05:41:40] "GET /Uploads/merged_dem_with_hillshade.png HTTP/1.1" 200 -
+2025-07-28 05:42:15,219 INFO 127.0.0.1 - - [28/Jul/2025 05:42:15] "GET /Uploads/slope_map_colored.png HTTP/1.1" 200 -
+2025-07-28 05:42:53,966 INFO 127.0.0.1 - - [28/Jul/2025 05:42:53] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:42:54,230 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:42:54,578 INFO 127.0.0.1 - - [28/Jul/2025 05:42:54] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:42:54,884 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:42:54,900 INFO 127.0.0.1 - - [28/Jul/2025 05:42:54] "[36mGET /Uploads/merged_dem_with_hillshade.png HTTP/1.1[0m" 304 -
+2025-07-28 05:42:55,172 INFO 127.0.0.1 - - [28/Jul/2025 05:42:55] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:43:04,442 INFO 127.0.0.1 - - [28/Jul/2025 05:43:04] "OPTIONS /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:43:04,703 INFO {"message": "Received merge-dem request", "folder_path": "Uploads/input"}
+2025-07-28 05:43:04,908 INFO 127.0.0.1 - - [28/Jul/2025 05:43:04] "POST /merge-dem HTTP/1.1" 200 -
+2025-07-28 05:43:05,236 INFO 127.0.0.1 - - [28/Jul/2025 05:43:05] "[36mGET /Uploads/merged_dem_with_hillshade.png HTTP/1.1[0m" 304 -

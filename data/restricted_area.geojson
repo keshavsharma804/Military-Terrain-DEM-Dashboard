@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Restricted Zone"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.0, 28.5], [77.1, 28.5], [77.1, 28.6], [77.0, 28.6], [77.0, 28.5]]]
+      }
+    }
+  ]
+}

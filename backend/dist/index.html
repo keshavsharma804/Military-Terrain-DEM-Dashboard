@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Military Terrain DEM Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background: #f4f4f4;
+    }
+
+    h1 {
+      color: #2a4d69;
+    }
+
+    .preview {
+      margin-top: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      border: 2px solid #444;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    button {
+      background-color: #2a4d69;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #1b3550;
+    }
+  </style>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+</head>
+<body>
+  <h1>Military Terrain DEM Dashboard</h1>
+
+  <button onclick="generateDEM()">Generate DEM</button>
+
+  <div id="preview-section" style="display: none;" class="preview">
+    <p><strong>Static Preview Image:</strong></p>
+    <img id="dem-preview" src="" alt="DEM Preview" />
+    <a href="http://localhost:5000/uploads/merged_dem.tif" download>📥 Download DEM</a>
+    <a href="http://localhost:5000/uploads/slope_map_colored.png" download>📥 Download Slope Map</a>
+
+    <p><a href="http://127.0.0.1:5000/uploads/interactive_map.html" target="_blank">
+  📍 View Interactive Map
+</a></p>
+
+  </div>
+
+<script>
+  function generateDEM() {
+    fetch('http://localhost:5000/merge-dem', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': 'v3WHvReXYg/FWoIfvLgXHmY/SC28JKUsSOGK+oM8X5Q='
+      },
+      body: JSON.stringify({ folder_path: 'Uploads' })
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.status === 'success') {
+        window.open(`http://localhost:5000${data.interactive}`, "_blank");
+        document.getElementById('dem-preview').src = `http://localhost:5000${data.preview}`;
+        document.getElementById('preview-section').style.display = 'block';
+        // Update slope map link dynamically
+        document.getElementById('slope-map-link').href = `http://localhost:5000${data.slope_map}`;
+      } else {
+        console.error(data.message);
+      }
+    })
+    .catch(err => {
+      console.error("Error generating DEM:", err);
+    });
+  }
+</script>
+
+<!-- Update HTML -->
+<a id="slope-map-link" href="http://localhost:5000/uploads/slope_map_colored.png" download>📥 Download Slope Map</a>
+</body>
+</html>

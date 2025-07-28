@@ -1,0 +1,49 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#map {
+  height: 90vh;
+  width: 100%;
+}
+
+.app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.header p {
+  color: #555;
+}
+
+.main-content {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
